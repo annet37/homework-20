@@ -21,34 +21,26 @@
         android:background="#3F51B5"
         tools:ignore="MissingConstraints" />
 
-    <View
-        android:id="@+id/view2"
-        android:layout_width="305dp"
-        android:layout_height="489dp"
-        android:layout_margin="70dp"
-        android:background="#FFC107"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="128dp" />
 
     <LinearLayout
-        android:layout_width="299dp"
-        android:layout_height="238dp"
-        android:background="@android:color/holo_orange_light"
+        android:layout_width="301dp"
+        android:layout_height="181dp"
+        android:background="@drawable/poste"
         android:orientation="vertical"
-        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintHorizontal_bias="0.696"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:elevation="5dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="136dp">
+        tools:layout_editor_absoluteY="246dp">
 
 
         <Button
             android:id="@+id/bottom3"
             android:layout_width="match_parent"
-            android:layout_height="111dp"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="oparation i "
+            android:text="menu "
             android:textSize="30dp"
             tools:layout_editor_absoluteX="42dp"
             tools:layout_editor_absoluteY="275dp" />
@@ -58,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="grean mill "
+            android:text="favorites"
             android:textSize="30dp"
             tools:layout_editor_absoluteX="56dp"
             tools:layout_editor_absoluteY="126dp" />
@@ -68,11 +60,51 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="one + one "
-            android:textSize="30dp"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="54dp" />
+            android:text="search "
+            android:textSize="30dp" />
+
 
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/view2"
+        android:layout_width="237dp"
+        android:layout_height="137dp"
+        android:orientation="vertical"
+        android:src="@drawable/film1"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="94dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="212dp"
+        android:layout_height="155dp"
+        android:src="@drawable/film2"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="494dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:src="@drawable/film3"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="94dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="yandexfoto.ru"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="199dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
